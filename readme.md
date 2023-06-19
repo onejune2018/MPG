@@ -1,6 +1,6 @@
 # An effective self-supervised framework for learning expressive molecular global representations to drug discovery
 
-This repository is the official implementation.
+This repository is the official implementation of Our Paper Published on BIB.
 
 > 📋 We provide the code of MPG implementation for pre-training, and fine-tuning on downstream tasks including molecular properties, DDI, and DTI predictions.
 
@@ -84,4 +84,28 @@ We provide the `eval.py` function in `property`, `DDI` and `DTI` folders to repr
 For example, to evaluate the performance on BBBP dataset, suppose the finetuned model is placed in `finetuned_model/`, please run:
 ```
 python property/eval.py --dataset bbbp --model_dir finetuned_model/property
+```
+## Citation
+
+Please cite our paper if you find this code useful for your research:
+
+```
+@article{li2021effective,
+  title={An effective self-supervised framework for learning expressive molecular global representations to drug discovery},
+  author={Li, Pengyong and
+          Wang, Jun and
+          Qiao, Yixuan and
+          Chen, Hao and
+          Yu, Yihuan and
+          Yao, Xiaojun and
+          Gao, Peng and
+          Xie, Guotong and
+          Song, Sen},
+  journal={Briefings in Bioinformatics},
+  volume={22},
+  number={6},
+  pages={bbab109},
+  year={2021},
+  publisher={Oxford University Press}
+}
 ```
