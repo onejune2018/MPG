@@ -4,6 +4,9 @@ This repository is the official implementation of Our Paper Published on BIB.
 
 > 📋 We provide the code of MPG implementation for pre-training, and fine-tuning on downstream tasks including molecular properties, DDI, and DTI predictions.
 
+![](MPG-overview.png)
+
+
 ## Requirements
 
 To install requirements:
